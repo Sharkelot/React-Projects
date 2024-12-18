@@ -35,7 +35,6 @@ A modern Todo application built with Next.js and featuring real-time updates.
 **Features:**
 - Task management with local storage persistence
 - Clean, minimalist UI
-- Dark mode support
 - Built with Next.js 15.1
 
 [View Todo App Project](./ToDo%20App/todo-app/)

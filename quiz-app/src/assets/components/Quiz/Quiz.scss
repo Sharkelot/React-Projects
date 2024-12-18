@@ -1,0 +1,91 @@
+@use "../../../../src/styles/vars" as *;
+
+.quiz-container {
+    width: 500px;
+    background: $bg;
+    border-radius: 4px;
+    margin-top: 100px;
+    padding: 30px 60px;
+    box-shadow: border-box;
+    position: relative;
+    
+    .active-question-no {
+        font-size: 32px;
+        font-weight: 500;
+        color: $primary;
+    }
+
+    .total-question {
+        font-size: 16px;
+        color: $disabled;
+        font-weight: 500;
+    }
+
+    h2 {
+        font-size: 20px;
+        font-weight: 500;
+        margin: 0;
+    }
+
+    ul {
+        margin-top: 20px;
+        margin-left: -40px;
+        
+        li {
+            text-align: left;
+            font-size: 16px;
+            list-style: none;
+            margin: 10px 0;
+            text-decoration: none;
+            color: $foreground;
+            background: $bg;
+            border: 1px solid $disabled;
+            border-radius: 16px;
+            padding: 11px;
+            cursor: pointer;
+        }
+        
+        .selected-answer {
+            background: $primary;
+            border: 1px solid $accent;
+            color: $bg;
+        }
+    }
+
+    .footer {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    button {
+        background: linear-gradient(0deg, $primary 0.03%, $accent);
+        color: $bg;
+        border: none;
+        border-radius: 9px;
+        padding: 10px 20px;
+        font-size: 18px;
+        outline: none;
+        margin-top: 15px;
+        cursor: pointer;
+        
+        &:disabled {
+            background: $disabled;
+            color: $bg-accent;
+            cursor: not-allowed;
+        }
+    }
+
+.fib-input {
+    width: 100%;
+    padding: 11px;
+    border: 1px solid $disabled;
+    border-radius: 16px;
+    outline: none;
+    font-size: 16px;
+    margin-top: 20px;
+    
+        &:focus {
+            border-color: $primary;
+        }
+    }
+}   

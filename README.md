@@ -4,7 +4,21 @@ This repository contains multiple web development projects built with React and 
 
 ## Projects
 
-### 1. City Tours
+### 1. React Quiz App
+A dynamic quiz application with multiple question types and real-time scoring.
+
+**Features:**
+- Multiple choice questions
+- Fill in the blank questions
+- Timer for each question
+- Score tracking
+- High scores leaderboard
+- Local storage persistence
+- Responsive design
+
+[View Quiz App Project](./quiz-app/)
+
+### 2. City Tours
 A React-based city tour application that showcases various tourist destinations.
 
 **Features:**
@@ -15,7 +29,7 @@ A React-based city tour application that showcases various tourist destinations.
 
 [View City Tours Project](./City%20Tours/city-tours/)
 
-### 2. Todo App
+### 3. Todo App
 A modern Todo application built with Next.js and featuring real-time updates.
 
 **Features:**

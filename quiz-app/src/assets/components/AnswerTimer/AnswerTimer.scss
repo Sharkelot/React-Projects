@@ -1,0 +1,16 @@
+@use "../../../../src/styles/vars" as *;
+
+.answer-timer-container {
+    width: 100%;
+    border-bottom: 1px solid #e7e8e9;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    .progress {
+        height: 5px;
+        transition-duration: 1s;
+        transition-timing-function: linear;
+    }
+}
+
